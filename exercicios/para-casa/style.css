@@ -1,0 +1,79 @@
+body {
+    margin: 0%;
+    font-family: sans-serif;
+
+}
+
+#topo {
+    background: black;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    border: solid 1 px #fff
+}
+
+.logo {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+.menu {
+    float: left;
+    width: 50%;
+}
+
+.menu li {
+    list-style: none;
+    display: inline-block;
+    padding: 5px 40px;
+    text-transform: uppercase;
+
+}
+
+.menu li>a {
+    color: #a58631;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.bts {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+.container img {
+    width: 40%;
+    height: 85px;
+}
+
+.bt-acesse {
+    display: inline-block;
+    padding: 10px 30px;
+    background: #a58631;
+    text-decoration: none;
+    color: #fff;
+    margin-top: 12px;
+}
+
+.img-banner {
+    background: url(https://thumbs.jusbr.com/imgs.jusbr.com/publications/artigos/images/fb6e24-99a3613da6804dce8d595b21d3a97c511496333758.jpg) no-repeat right top fixed;
+    background-size: cover;
+    height: 80vh;
+    background-color:black;
+}
+h1{
+    color:#a58631;
+    padding-left: 30%;
+    margin: 0;
+}
+@media (max-width: 743px){
+    .logo, .menu, .bts{
+        width: 100%;
+    }
+}
